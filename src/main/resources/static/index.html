@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+    <title>Title</title>
+</head>
+<body>
+    <form action="/taobao/url" method="POST">
+        <label>抢购直链：</label>
+        <input style="width:250px;height:30px" name="url" type="text" value="https://main.m.taobao.com/order/index.html?buyParam=680579044747_1_5054825411631" placeholder="请输入直链"/>
+        <br/>
+        <br/>
+        <label>抢购时间：</label>
+        <input style="width:250px;height:30px" name="time" type="text" value="2022-12-22 23:13" placeholder="请输入时间(yyyy-MM-dd HH:mm)"/>
+        <br/>
+        <br/>
+        <input type="submit" value="提交" id="sub_btn"/>
+    </form>
+</body>
+</html>

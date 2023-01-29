@@ -1,0 +1,9 @@
+server:
+  # 端口
+  port: 8080
+
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    cache: false
